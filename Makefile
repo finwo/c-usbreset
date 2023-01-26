@@ -8,7 +8,7 @@ CFLAGS?=
 default: $(NAME)
 
 $(NAME): $(SRC)
-	cc $(CFLAGS) $(SRC) -o $@
+	$(CC) $(CFLAGS) $(SRC) -o $@
 
 .PHONY: install
 install: $(NAME)
