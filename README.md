@@ -8,7 +8,7 @@ Origin: https://marc.info/?l=linux-usb&m=121459435621262&w=2
 Build
 -----
 
-Simple running `make` should build the binary on a posix system
+Simply running `make` should build the binary on a posix system
 
 Install
 -------
